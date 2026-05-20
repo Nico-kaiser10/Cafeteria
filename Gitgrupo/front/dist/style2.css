@@ -1,0 +1,110 @@
+@media (max-width: 767px) {
+}
+h1 {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 50px;
+   color: white;
+}
+
+h3 {
+   font-family: "Playwrite GB J Guides", cursive;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: white;
+}
+.fondo {
+    background-image: url("../asset/Fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+.flex {
+    display: flex;
+}
+.relative {
+    position: relative;
+    text-align: center;   
+}
+.imagen {
+    width: 100%;
+    height: 100vh;
+}
+.abso {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.BI {
+    border:  5px groove #470a0fb4;
+    background-color: #470a0fb4;
+    padding: 0px 24px;
+    border-radius: 200px;
+}
+.imagen2 {
+    margin-left: auto;    
+    margin: auto;
+    width: 70%;
+}
+.historia {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.lore {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.titu {
+    width: 100%;
+    text-align: center;
+}
+.cafes {
+    width: 19%;
+    margin: auto;
+    border: 5px inset #cc0d1d;
+    
+}
+.precio {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    border: 5px inset #cc0d1d;
+    background-color: rgba(139, 0, 0, 0.438);
+}
+.borde {
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+}
+.cuadro {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.a {
+    color: inherit;
+    text-decoration: none;
+}
+.deco2 {
+    margin-top: 20px;
+}
+.deco3 {
+    margin-top: 40px;
+}
